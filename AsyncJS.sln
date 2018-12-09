@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AsyncJS", "AsyncJS\AsyncJS.njsproj", "{0F079657-0F90-4C4F-8775-E7B4CD1F57FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F079657-0F90-4C4F-8775-E7B4CD1F57FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F079657-0F90-4C4F-8775-E7B4CD1F57FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F079657-0F90-4C4F-8775-E7B4CD1F57FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F079657-0F90-4C4F-8775-E7B4CD1F57FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3443F5-F5DB-4E0E-A04E-F396DCBCE389}
+	EndGlobalSection
+EndGlobal
