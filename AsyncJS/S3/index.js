@@ -73,7 +73,7 @@ $(document).ready(function () {
 							};
 						}(i, xmlhttp, get_numbers, $, enable_buttons);
                     }
-                    xmlhttp[i].open("GET", "/number", true);
+                    xmlhttp[i].open("GET", "/number?id=" + Math.random().toString(), true);
                     xmlhttp[i].send();
                     if (!auto) {
                         disable_buttons();
