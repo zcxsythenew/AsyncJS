@@ -1,6 +1,7 @@
 'use strict';
 var http = require('http');
 var fs = require('fs');
+var url = require('url');
 var port = process.env.PORT || 3000;
 var validHTMLurl = ["/S1/index.html", "/S2/index.html", "/S3/index.html", "/S4/index.html", "/S5/index.html"];
 var validJSurl = ["/S1/index.js", "/S2/index.js", "/S3/index.js", "/S4/index.js", "/S5/index.js"];
@@ -33,7 +34,7 @@ function responseFile(req, res, url) {
 }
 
 http.createServer(function (req, res) {
-    if (req.url === "/number") {
+    if (url.parse(req.url).pathname === "/number") {
         setTimeout(() => {
             res.writeHead(200, { 'Content-Type': 'text/plain' });
             res.end((1 + Math.floor(Math.random() * 10)).toString());
